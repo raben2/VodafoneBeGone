@@ -3,5 +3,5 @@ prometheus_client==0.5.0
 wsgiref
 falcon
 click>=6.6
-requests==2.10.0
+requests>=2.20.0
 speedtest
