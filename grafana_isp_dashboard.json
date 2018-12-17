@@ -24,7 +24,7 @@
       "dashLength": 10,
       "dashes": false,
       "datasource": "Prometheus",
-      "fill": 1,
+      "fill": 3,
       "gridPos": {
         "h": 9,
         "w": 12,
@@ -33,18 +33,20 @@
       },
       "id": 2,
       "legend": {
+        "alignAsTable": false,
         "avg": false,
         "current": false,
-        "max": false,
-        "min": false,
+        "max": true,
+        "min": true,
+        "rightSide": false,
         "show": true,
         "total": false,
-        "values": false
+        "values": true
       },
       "lines": true,
-      "linewidth": 1,
+      "linewidth": 3,
       "links": [],
-      "nullPointMode": "null",
+      "nullPointMode": "connected",
       "percentage": false,
       "pointradius": 5,
       "points": false,
@@ -96,7 +98,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "MBs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -104,7 +106,7 @@
           "show": true
         },
         {
-          "format": "short",
+          "format": "h",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -122,7 +124,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "fill": 1,
+      "fill": 3,
       "gridPos": {
         "h": 9,
         "w": 12,
@@ -133,16 +135,16 @@
       "legend": {
         "avg": false,
         "current": false,
-        "max": false,
-        "min": false,
+        "max": true,
+        "min": true,
         "show": true,
         "total": false,
-        "values": false
+        "values": true
       },
       "lines": true,
-      "linewidth": 1,
+      "linewidth": 3,
       "links": [],
-      "nullPointMode": "null",
+      "nullPointMode": "connected",
       "percentage": false,
       "pointradius": 5,
       "points": false,
@@ -150,7 +152,7 @@
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
-      "steppedLine": false,
+      "steppedLine": true,
       "targets": [
         {
           "expr": "speedtest_download",
@@ -187,7 +189,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "MBs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -195,7 +197,7 @@
           "show": true
         },
         {
-          "format": "short",
+          "format": "h",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -297,7 +299,7 @@
     "list": []
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-24h",
     "to": "now"
   },
   "timepicker": {
@@ -328,5 +330,5 @@
   "timezone": "",
   "title": "isp",
   "uid": "PKPGJ3Emz",
-  "version": 7
+  "version": 11
 }
