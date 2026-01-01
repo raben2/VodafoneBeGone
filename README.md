@@ -1,3 +1,5 @@
+Repo moved to [Codeberg](7)
+
 VodafoneBeGone
 ==============
 
@@ -37,3 +39,4 @@ Let me know how it goes for you.
 [4]: https://amzn.to/2zV9VQj
 [5]: https://github.com/sanderjo/fast.com
 [6]: https://github.com/vegasbrianc/prometheus
+[7]: https://codeberg.org/srsh/VodafoneBeGone
